@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault();
         addTodo();
 
-        if (isStorageExist()) {
-            loadDataFromStorage();
-        }
     });
+    if (isStorageExist()) {
+        loadDataFromStorage();
+    }
 });
 
 function addTodo() {

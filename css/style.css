@@ -27,7 +27,7 @@ header {
     width: 1024px;
     border-radius: 8px;
     margin: 16px;
-    background: #F8F9FA;
+    background: #314e6b;
     padding: 16px;
     flex-grow: 1;
     height: fit-content;
@@ -38,7 +38,7 @@ header {
     border-radius: 16px;
     margin-top: 16px;
     padding: 12px 24px 12px 24px;
-    background: white;
+    background: rgb(105, 72, 72);
     display: flex;
     align-items: center;
 }
@@ -76,7 +76,7 @@ header {
 
 input[type=text], input[type=date] {
     font-family: Raleway, sans-serif;
-    background: #F5F1FF;
+    background: #514474;
     border: 2px solid #9475EA;
     border-radius: 8px;
     padding: 16px;
@@ -118,7 +118,6 @@ input[type=text], input[type=date], .btn-submit:focus {
 .check-button {
     width: 40px;
     height: 40px;
-
     background: url('../assets/check-outline.svg');
     background-size: contain;
     margin-left: auto;
